@@ -1,0 +1,1 @@
+This repository demonstrates a common issue encountered when using React Router Dom v6: the catch-all route (`/*`) failing to match unmatched routes.  The problem arises from the order of routes.  The solution corrects the issue to ensure the catch-all route properly handles all other routes that don't match, preventing unexpected blank screens.
